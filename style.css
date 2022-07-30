@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sans-Serif;
+  }
+body{
+  background-color: #000000;
+}
+.navbar {
+    width: 94%;
+    height: 100%;
+    margin: 1.5% 3% 1.5% 3%;
+    text-align: center;
+  }
+.navbar .logo-div {
+    display: inline-block;
+    width: 15%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+.line{
+    display: inline-block;
+    width: 1px;
+    height: 50px;
+    background-color: #ffffff;
+    vertical-align: middle;
+  }
+.navbar .grow-list {
+    display: inline-block;
+    min-width: 56%;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+.list {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+  }
+.list-item {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 16px 0px 40px;
+    color: #ffffff;
+  }
+.apps{
+    background-color: #000000;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+  }
+.apps:focus-visible {
+    outline: 0;
+}
+.navbar .button-group{
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    text-align: right;
+    vertical-align: middle;
+  }
+.button-small {
+    background-color: rgb(185, 0, 185);
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin: 0px 0px 0px 12px;
+    padding: 12px 32px 12px 32px;
+    color: #ffffff;
+  }
+  /* Banner Styles */
+.hero-sec{
+    background-image: url(./assets/bg.png);
+    background-size: 100% 100%;
+    min-height: 100vh;
+  }
+.hero{
+    padding: 8% 0% 12%;
+    text-align: center;
+}
+.hero-heading{
+    display: inline-block;
+    width: 72%;
+    font-weight: bold;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+.hero-description{
+    display: inline-block;
+    width: 90%;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 2% 2% 4% 2%;
+    text-align: center;
+    vertical-align: middle;
+}
+.button-large{
+    background-color: #b900b9;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px solid #b900b9;
+    border-radius: 8px;
+    margin: 0px 0px 0px 12px;
+    padding: 12px 32px 12px 32px;
+    color: #ffffff;
+}
